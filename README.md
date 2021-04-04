@@ -1,6 +1,16 @@
 # TenantAngularApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+TypeScript
+NodeJS  NPM
+Bootstrap 4
+
+npm  install -g @angular/cli
+ng new  tenant-app
+cd tenant-app
+ng serve
+
+https://www.youtube.com/watch?v=kpM5xV17S9U&list=PLGRDMO4rOGcNzi3CpBWsCdQSzbjdWWy-f&index=3
 
 ## Development server
 
