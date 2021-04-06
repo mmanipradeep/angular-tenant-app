@@ -3,6 +3,9 @@ export class Tenant {
   tenantName: String;
    advanceAmount: number;
    monthlyRent: number;
+   status: String;
    onBoardDate : Date;
    separationDate : Date ;
+   createdBy : String;
+   createdDate : Date;
 }

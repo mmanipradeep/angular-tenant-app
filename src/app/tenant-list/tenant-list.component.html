@@ -7,6 +7,7 @@
     <th> Month Rent</th>
     <th> Advance Amount </th>
     <th> Separation Date </th>
+    <th> Status </th>
   </tr>
   </thead>
   <tbody>
@@ -16,6 +17,7 @@
    <td> {{ tenant.monthlyRent }} </td>
     <td> {{ tenant.advanceAmount }} </td>
     <td> {{ tenant.separationDate }} </td>
+    <td> {{ tenant.status }} </td>
     <td>
     <button (click) = "updateTenant(tenant.id)" class = "btn btn-info"> Update</button>
       <button (click) = "deleteTenant(tenant.id)" class = "btn btn-danger" style="margin-left: 10px"> Delete</button>
