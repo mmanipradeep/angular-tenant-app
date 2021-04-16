@@ -6,10 +6,9 @@ import { TenantListComponent } from './tenant-list/tenant-list.component';
 import { CreateTenantComponent } from './create-tenant/create-tenant.component';
 import { TenantDetailsComponent } from './tenant-details/tenant-details.component';
 import { UpdateTenantComponent } from './update-tenant/update-tenant.component';
-
-import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http'
-
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { FieldErrorDisplayComponent } from './field-error-display/field-error-display.component';
 
 @NgModule({
   declarations: [
@@ -17,13 +16,16 @@ import { HttpClientModule } from '@angular/common/http'
     TenantListComponent,
     CreateTenantComponent,
     TenantDetailsComponent,
-    UpdateTenantComponent
+    UpdateTenantComponent,
+    FieldErrorDisplayComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
